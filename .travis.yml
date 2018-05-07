@@ -1,2 +1,4 @@
 language: csharp
 solution: SRZPeople.sln
+notifications:
+    slack: zilberberg:JXugcnVhNWU2xCUYjGH4VuA0#repo-srzpeople
