@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Steven Zilberberg</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is my description</description>
+    <releaseNotes>My Test Package</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+  </metadata>
+</package>

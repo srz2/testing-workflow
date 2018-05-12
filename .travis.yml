@@ -1,4 +1,8 @@
 language: csharp
 solution: SRZPeople.sln
+deploy:
+  nuget push SRZPeople.*.nupkg -Source https://api.nuget.org/v3/index.json
+  on:
+    branch: master
 notifications:
-    slack: zilberberg:JXugcnVhNWU2xCUYjGH4VuA0#repo-srzpeople
+  slack: zilberberg:JXugcnVhNWU2xCUYjGH4VuA0#repo-srzpeople
