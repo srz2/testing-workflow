@@ -1,9 +1,10 @@
 language: csharp
 solution: SRZPeople.sln
 deploy:
+  nuget setApiKey $NUGET_API_KEY
   nuget push SRZPeople.*.nupkg -Source https://api.nuget.org/v3/index.json
-  branches:
-    only:
-    - master
 notifications:
   slack: zilberberg:JXugcnVhNWU2xCUYjGH4VuA0#repo-srzpeople
+branches:
+    only:
+    - master
